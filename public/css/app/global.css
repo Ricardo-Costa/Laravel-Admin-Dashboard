@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'GoodDog';
+    src: url('../../fonts/GoodDog.otf');
+}
+
+/* alinhar componentes */
+.component-inline {
+    display: inline;
+}
+
+/* titulo principal da pagina de login */
+#title-v1 {
+    color: rgba(0, 0, 0, 0.3) !important;
+    font-family: 'GoodDog', serif !important;
+    font-weight: bold !important;
+    margin-left: 15px !important;
+    font-size: 30px !important;
+}
+#title-v2 {
+    color: rgba(0, 0, 0, 0.26) !important;
+    font-family: 'GoodDog', serif !important;
+    font-weight: bold !important;
+    margin-left: 15px !important;
+    font-size: 30px !important;
+    text-shadow: 0px 5px 0px rgba(0,0,0,0.1) !important;
+}
+hr {
+    display: block;
+    border: none;
+    border-top: 1px solid #f5f5f5;
+}
+
+/* Alterar padrão "popover" */
+.popover  {
+    border: none !important;
+}
+.confirmation  {
+    min-width: 330px !important;
+    border: none !important;
+    border-radius: 10px !important;
+}
+.confirmation .popover-title {
+    border: none !important;
+}
